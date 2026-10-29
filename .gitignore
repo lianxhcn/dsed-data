@@ -1,8 +1,18 @@
-# Only reviewed reader-facing files may be tracked.
 /*
 !/.gitignore
 !/.nojekyll
 !/index.html
+!/guide.html
 !/styles.css
 !/README.md
 !/ACCESS.md
+!/cases/
+/cases/*
+!/cases/csmar.html
+!/cases/hybrid.html
+!/cases/hkfamily.html
+!/cases/shoppers.html
+!/cases/donation.html
+!/cases/gym.html
+!/cases/wdi.html
+!/cases/gmd.html

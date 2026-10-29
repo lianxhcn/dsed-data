@@ -5,21 +5,22 @@
 面向教师与学生的案例阅读入口。累计比较 35 项候选资料，已完成七套本地数据包的整理；GMD 作为自主获取资源单列。
 
 - [浏览案例资源展示页](https://lianxhcn.github.io/dsed-data/)
-- 离线阅读：下载本仓库，解压后直接打开 `index.html`，保留同目录 `styles.css`。页面无需安装依赖；第三方来源链接需要联网。
+- 离线阅读：下载本仓库，解压后直接打开 `index.html`，保留同目录 `styles.css`、`guide.html` 和 `cases/` 文件夹。页面无需安装依赖；第三方来源链接需要联网。
+- [网站使用指南](guide.html)
 - [获取、配套状态与使用边界](ACCESS.md)
 
 ## 从经济问题认识数据
 
 | 案例 | 经济问题与数据特征 | 可学习的分析任务 | 官方获取 |
 |---|---|---|---|
-| CSMAR：企业融资与经营决策 | 2010–2025 年 · 3,088 个证券；从中国上市公司的财务与经营记录出发，理解企业融资、投资与经营表现。 | 多表连接、指标构造、缺失与极端值检查、回归与面板分析。 | [CSMAR 官方入口](https://data.csmar.com/) |
-| hybrid：混合办公与员工表现 | 1,612 名实验参与者；企业如何安排混合办公？以中国企业实验讨论离职、绩效与晋升。 | 实验组比较、置信区间、回归调整与异质性分析。 | [官方数据](https://doi.org/10.7910/DVN/6X4ZZL) |
-| hkfamily：家政雇佣与家庭时间 | 2018–2019 年 · 2,003 名受访者；香港家庭如何分配家务与照料时间？观察家政服务和夫妻分工。 | 问卷编码、特殊缺失、时间变量整理、分组比较与回归。 | [官方获取说明](https://digital.lib.hkbu.edu.hk/helper-at-home/en/dataset-download.html) |
-| shoppers：在线购物与购买意向 | 12,330 段会话 · 18 列；一次网站访问会转化为购买吗？从真实购物会话理解分类任务。 | 探索分析、类别编码、训练与测试划分、分类评价及信息泄漏。 | [UCI 官方数据](https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset) |
-| donation：配捐能促进捐赠吗 | 50,083 条非空募捐记录；配捐安排能否改变捐赠行为？从募捐实验区分分组、响应与金额。 | 随机分配、响应率比较、平均效应估计与样本口径说明。 | [官方数据 V1](https://doi.org/10.3886/E113224V1) |
-| gym：健身合同与实际到访 | 491,506 行会员月记录；选择健身合同后，人们真的会常去吗？对照付费选择与实际使用。 | 月度重塑、合同状态、样本筛选、到访和价格的分母比较。 | [作者数据页](https://eml.berkeley.edu/~sdellavi/data/gymdata.shtml) |
-| WDI：全球经济与发展 | 217 个经济体 · 1990–2024 年；不同经济体的发展路径有何差异？从世界银行指标认识增长与发展。 | 指标与单位核对、长宽表转换、缺失分析、跨国比较与趋势图。 | [世界银行 WDI](https://datacatalog.worldbank.org/search/dataset/0037712/world-development-indicators) |
-| GMD：全球宏观数据获取 | 按所选经济体、年份与指标获取；如何把已有分析迁移到新的宏观数据？练习官方取数与版本记录。 | 自主下载、版本锁定、单位核对、实际值与预测值识别。 | [GMD 官方获取](https://www.globalmacrodata.com/data.html) |
+| [CSMAR：企业融资与经营决策](cases/csmar.html) | 2010–2025 年 · 3,088 个证券；从中国上市公司的财务与经营记录出发，理解企业融资、投资与经营表现。 | 多表连接、指标构造、缺失与极端值检查、回归与面板分析。 | [CSMAR 官方入口](https://data.csmar.com/) |
+| [hybrid：混合办公与员工表现](cases/hybrid.html) | 1,612 名实验参与者；企业如何安排混合办公？以中国企业实验讨论离职、绩效与晋升。 | 实验组比较、置信区间、回归调整与异质性分析。 | [官方数据](https://doi.org/10.7910/DVN/6X4ZZL) |
+| [hkfamily：家政雇佣与家庭时间](cases/hkfamily.html) | 2018–2019 年 · 2,003 名受访者；香港家庭如何分配家务与照料时间？观察家政服务和夫妻分工。 | 问卷编码、特殊缺失、时间变量整理、分组比较与回归。 | [官方获取说明](https://digital.lib.hkbu.edu.hk/helper-at-home/en/dataset-download.html) |
+| [shoppers：在线购物与购买意向](cases/shoppers.html) | 12,330 段会话 · 18 列；一次网站访问会转化为购买吗？从真实购物会话理解分类任务。 | 探索分析、类别编码、训练与测试划分、分类评价及信息泄漏。 | [UCI 官方数据](https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset) |
+| [donation：配捐能促进捐赠吗](cases/donation.html) | 50,083 条非空募捐记录；配捐安排能否改变捐赠行为？从募捐实验区分分组、响应与金额。 | 随机分配、响应率比较、平均效应估计与样本口径说明。 | [官方数据 V1](https://doi.org/10.3886/E113224V1) |
+| [gym：健身合同与实际到访](cases/gym.html) | 491,506 行会员月记录；选择健身合同后，人们真的会常去吗？对照付费选择与实际使用。 | 月度重塑、合同状态、样本筛选、到访和价格的分母比较。 | [作者数据页](https://eml.berkeley.edu/~sdellavi/data/gymdata.shtml) |
+| [WDI：全球经济与发展](cases/wdi.html) | 217 个经济体 · 1990–2024 年；不同经济体的发展路径有何差异？从世界银行指标认识增长与发展。 | 指标与单位核对、长宽表转换、缺失分析、跨国比较与趋势图。 | [世界银行 WDI](https://datacatalog.worldbank.org/search/dataset/0037712/world-development-indicators) |
+| [GMD：全球宏观数据获取](cases/gmd.html) | 按所选经济体、年份与指标获取；如何把已有分析迁移到新的宏观数据？练习官方取数与版本记录。 | 自主下载、版本锁定、单位核对、实际值与预测值识别。 | [GMD 官方获取](https://www.globalmacrodata.com/data.html) |
 
 ## 建设方式与当前进度
 
@@ -36,7 +37,7 @@
 
 ## 本仓库的文件
 
-`index.html` 为静态页面，`styles.css` 为本地样式，`ACCESS.md` 为获取与边界说明，`.nojekyll` 用于静态托管。页面不依赖外部字体、脚本或图片。
+`index.html` 为案例目录，`cases/` 包含八个案例详情页，`guide.html` 为使用指南，`styles.css` 为本地样式，`ACCESS.md` 为获取与边界说明，`.nojekyll` 用于静态托管。页面不依赖外部字体、脚本或图片。
 
 本仓库只管理公开展示材料；原始及整理数据、第三方论文 PDF、私人材料、内部日志与环境文件均不在此仓库。未为本站内容另行授予开放许可证；第三方资料权利归原权利人所有。
 
