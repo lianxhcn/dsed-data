@@ -1,0 +1,8 @@
+# Only reviewed reader-facing files may be tracked.
+/*
+!/.gitignore
+!/.nojekyll
+!/index.html
+!/styles.css
+!/README.md
+!/ACCESS.md
