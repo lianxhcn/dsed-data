@@ -9,46 +9,94 @@
 <nav aria-label="主导航"><a href="index.html#cases" aria-current="page">案例目录</a><a href="guide.html" >使用指南</a></nav></header>
 <main id="main" class="wrap"><section class="home-intro" aria-labelledby="page-title"><p class="eyebrow">教材配套案例资源·建设版</p><h1 id="page-title">从真实经济问题出发，<br>学习数据分析与决策。</h1><p class="intro-text">从中国企业与家庭，到随机实验和国际宏观资料。<br class="wide-only">选择一个案例，了解它的研究背景、数据特征与学习任务。</p><div class="themes"><span>真实数据</span><span>中国企业与家庭</span><span>AI 辅助整理 · 人工核验</span></div></section>
 <section class="stats" aria-label="建设概况"><div><strong>35</strong><span>项候选资料累计比较</span></div><div><strong>7</strong><span>套本地数据包已准备</span></div><div><strong>+1</strong><span>项自主获取资源</span></div></section>
-<section id="cases" class="case-section" aria-labelledby="cases-title"><div class="section-heading"><div><p class="eyebrow">案例目录</p><h2 id="cases-title">选择你感兴趣的经济问题</h2></div><a href="guide.html">第一次使用？先读指南 →</a></div><p class="section-note">七套本地数据包分别介绍；GMD 作为自主获取练习单列。详情页提供官方来源与使用范围。</p><div class="case-grid"><article class="case-card " id="csmar">
+<nav class="case-map" aria-label="按经济问题快速定位"><p>快速定位</p><div><a href="#csmar">企业财务<span>CSMAR</span></a><a href="#hybrid">混合办公<span>hybrid</span></a><a href="#hkfamily">家庭分工<span>hkfamily</span></a><a href="#shoppers">购物预测<span>shoppers</span></a><a href="#donation">配捐实验<span>donation</span></a><a href="#gym">健身行为<span>gym</span></a><a href="#wdi">全球发展<span>WDI</span></a><a href="#gmd">宏观取数<span>GMD</span></a></div></nav><section id="cases" class="case-section" aria-labelledby="cases-title"><div class="section-heading"><div><p class="eyebrow">案例目录</p><h2 id="cases-title">选择你感兴趣的经济问题</h2></div><a href="guide.html">第一次使用？先读指南 →</a></div><p class="section-note">七套本地数据包与 GMD 自主获取资源。卡片底部可直接访问官方数据、论文和代码，案例说明供进一步阅读。</p><div class="case-grid"><article class="case-card " id="csmar">
 <div class="card-meta"><span>中国企业</span><span class="case-code">CSMAR</span></div>
 <h3><a href="cases/csmar.html">企业融资与经营决策</a></h3>
-<p class="card-description">从中国上市公司的财务与经营记录出发，理解企业融资、投资与经营表现。</p><p class="card-scale">2010–2025 年 · 3,088 个证券</p>
-<a class="read-link" href="cases/csmar.html" aria-label="了解案例：企业融资与经营决策">了解案例与获取方式 <span aria-hidden="true">→</span></a></article>
+<p class="card-description">从中国上市公司的财务与经营记录出发，理解企业融资、投资与经营表现。</p>
+<p class="card-citation">来源：CSMAR 上市公司财务及辅助数据库。</p>
+<div class="card-data"><strong>2010–2025 年 · 3,088 个证券</strong><p>课堂表 36,494 行、29 列；另备完整主表与 16 张来源表。</p></div>
+<p class="card-task"><strong>学习任务：</strong>多表连接、指标构造、缺失与极端值检查、回归与面板分析。</p>
+<p class="card-caution">课堂表与完整表的样本及处理口径不同。</p>
+<footer class="card-resources"><p class="card-prepared">本地数据、字典与规则已备</p>
+<div class="direct-links" aria-label="CSMAR来源与材料"><a href="https://data.csmar.com/">CSMAR 官网 <span aria-hidden="true">↗</span></a></div>
+<a class="case-notes" href="cases/csmar.html" aria-label="进一步阅读：企业融资与经营决策">案例说明 <span aria-hidden="true">→</span></a></footer></article>
 <article class="case-card " id="hybrid">
 <div class="card-meta"><span>中国企业 · 随机实验</span><span class="case-code">hybrid</span></div>
 <h3><a href="cases/hybrid.html">混合办公与员工表现</a></h3>
-<p class="card-description">企业如何安排混合办公？以中国企业实验讨论离职、绩效与晋升。</p><p class="card-scale">1,612 名实验参与者</p>
-<a class="read-link" href="cases/hybrid.html" aria-label="了解案例：混合办公与员工表现">了解案例与获取方式 <span aria-hidden="true">→</span></a></article>
+<p class="card-description">企业如何安排混合办公？以中国企业实验讨论离职、绩效与晋升。</p>
+<p class="card-citation">来源：Bloom, Han &amp; Liang (2024), Nature；Harvard Dataverse。</p>
+<div class="card-data"><strong>1,612 名实验参与者</strong><p>41 张独立数据表，覆盖三个结果维度及配套调查。</p></div>
+<p class="card-task"><strong>学习任务：</strong>实验组比较、置信区间、回归调整与异质性分析。</p>
+<p class="card-caution">匿名表缺少共同员工键，不能跨文件拼接个人。</p>
+<footer class="card-resources"><p class="card-prepared">本地数据、字典与规则已备</p>
+<div class="direct-links" aria-label="hybrid来源与材料"><a href="https://doi.org/10.7910/DVN/6X4ZZL">数据与代码 <span aria-hidden="true">↗</span></a><a href="https://doi.org/10.1038/s41586-024-07500-2">论文 · Nature <span aria-hidden="true">↗</span></a></div>
+<a class="case-notes" href="cases/hybrid.html" aria-label="进一步阅读：混合办公与员工表现">案例说明 <span aria-hidden="true">→</span></a></footer></article>
 <article class="case-card " id="hkfamily">
 <div class="card-meta"><span>中国家庭 · 住户调查</span><span class="case-code">hkfamily</span></div>
 <h3><a href="cases/hkfamily.html">家政雇佣与家庭时间</a></h3>
-<p class="card-description">香港家庭如何分配家务与照料时间？观察家政服务和夫妻分工。</p><p class="card-scale">2018–2019 年 · 2,003 名受访者</p>
-<a class="read-link" href="cases/hkfamily.html" aria-label="了解案例：家政雇佣与家庭时间">了解案例与获取方式 <span aria-hidden="true">→</span></a></article>
+<p class="card-description">香港家庭如何分配家务与照料时间？观察家政服务和夫妻分工。</p>
+<p class="card-citation">来源：香港住户调查；Cheung (2025), Data in Brief。</p>
+<div class="card-data"><strong>2018–2019 年 · 2,003 名受访者</strong><p>289 列；每行由一名受访者报告自己、配偶及家庭情况。</p></div>
+<p class="card-task"><strong>学习任务：</strong>问卷编码、特殊缺失、时间变量整理、分组比较与回归。</p>
+<p class="card-caution">当前使用未加权样本；商业教材附送需另核许可。</p>
+<footer class="card-resources"><p class="card-prepared">本地数据、字典与规则已备</p>
+<div class="direct-links" aria-label="hkfamily来源与材料"><a href="https://digital.lib.hkbu.edu.hk/helper-at-home/en/dataset-download.html">官方项目 <span aria-hidden="true">↗</span></a><a href="https://doi.org/10.7910/DVN/O7EHQB">调查数据 <span aria-hidden="true">↗</span></a><a href="https://doi.org/10.1016/j.dib.2025.111928">数据文章 <span aria-hidden="true">↗</span></a></div>
+<a class="case-notes" href="cases/hkfamily.html" aria-label="进一步阅读：家政雇佣与家庭时间">案例说明 <span aria-hidden="true">→</span></a></footer></article>
 <article class="case-card " id="shoppers">
 <div class="card-meta"><span>数字消费 · 预测</span><span class="case-code">shoppers</span></div>
 <h3><a href="cases/shoppers.html">在线购物与购买意向</a></h3>
-<p class="card-description">一次网站访问会转化为购买吗？从真实购物会话理解分类任务。</p><p class="card-scale">12,330 段会话 · 18 列</p>
-<a class="read-link" href="cases/shoppers.html" aria-label="了解案例：在线购物与购买意向">了解案例与获取方式 <span aria-hidden="true">→</span></a></article>
+<p class="card-description">一次网站访问会转化为购买吗？从真实购物会话理解分类任务。</p>
+<p class="card-citation">来源：UCI；Sakar et al. (2019), Neural Computing and Applications。</p>
+<div class="card-data"><strong>12,330 段会话 · 18 列</strong><p>每行是一段会话，包含访问特征与是否购买的结果。</p></div>
+<p class="card-task"><strong>学习任务：</strong>探索分析、类别编码、训练与测试划分、分类评价及信息泄漏。</p>
+<p class="card-caution">先确定预测时点；完整会话特征未必能用于实时预测。</p>
+<footer class="card-resources"><p class="card-prepared">本地数据、字典与规则已备</p>
+<div class="direct-links" aria-label="shoppers来源与材料"><a href="https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset">UCI 数据 <span aria-hidden="true">↗</span></a><a href="https://doi.org/10.1007/s00521-018-3523-0">参考论文 <span aria-hidden="true">↗</span></a></div>
+<a class="case-notes" href="cases/shoppers.html" aria-label="进一步阅读：在线购物与购买意向">案例说明 <span aria-hidden="true">→</span></a></footer></article>
 <article class="case-card " id="donation">
 <div class="card-meta"><span>公益决策 · 随机实验</span><span class="case-code">donation</span></div>
 <h3><a href="cases/donation.html">配捐能促进捐赠吗</a></h3>
-<p class="card-description">配捐安排能否改变捐赠行为？从募捐实验区分分组、响应与金额。</p><p class="card-scale">50,083 条非空募捐记录</p>
-<a class="read-link" href="cases/donation.html" aria-label="了解案例：配捐能促进捐赠吗">了解案例与获取方式 <span aria-hidden="true">→</span></a></article>
+<p class="card-description">配捐安排能否改变捐赠行为？从募捐实验区分分组、响应与金额。</p>
+<p class="card-citation">来源：Karlan &amp; List (2007), American Economic Review。</p>
+<div class="card-data"><strong>50,083 条非空募捐记录</strong><p>整理表保留 50,130 源行、37 列，其中 47 行为全空记录。</p></div>
+<p class="card-task"><strong>学习任务：</strong>随机分配、响应率比较、平均效应估计与样本口径说明。</p>
+<p class="card-caution">全空行不能视为零捐赠；核心分析仅用非空记录。</p>
+<footer class="card-resources"><p class="card-prepared">本地数据、字典与规则已备</p>
+<div class="direct-links" aria-label="donation来源与材料"><a href="https://doi.org/10.3886/E113224V1">数据与代码 <span aria-hidden="true">↗</span></a><a href="https://doi.org/10.1257/aer.97.5.1774">论文 · AER <span aria-hidden="true">↗</span></a></div>
+<a class="case-notes" href="cases/donation.html" aria-label="进一步阅读：配捐能促进捐赠吗">案例说明 <span aria-hidden="true">→</span></a></footer></article>
 <article class="case-card " id="gym">
 <div class="card-meta"><span>行为决策 · 会员月表</span><span class="case-code">gym</span></div>
 <h3><a href="cases/gym.html">健身合同与实际到访</a></h3>
-<p class="card-description">选择健身合同后，人们真的会常去吗？对照付费选择与实际使用。</p><p class="card-scale">491,506 行会员月记录</p>
-<a class="read-link" href="cases/gym.html" aria-label="了解案例：健身合同与实际到访">了解案例与获取方式 <span aria-hidden="true">→</span></a></article>
+<p class="card-description">选择健身合同后，人们真的会常去吗？对照付费选择与实际使用。</p>
+<p class="card-citation">来源：DellaVigna &amp; Malmendier (2006), American Economic Review。</p>
+<div class="card-data"><strong>491,506 行会员月记录</strong><p>月表 35 列；另备 8,273 段会员经历，首次经历主样本 7,752 个编号。</p></div>
+<p class="card-task"><strong>学习任务：</strong>月度重塑、合同状态、样本筛选、到访和价格的分母比较。</p>
+<p class="card-caution">零到访、缺失与非在籍月份须区分；业务标记不等于重复行。</p>
+<footer class="card-resources"><p class="card-prepared">本地数据、字典与规则已备</p>
+<div class="direct-links" aria-label="gym来源与材料"><a href="https://eml.berkeley.edu/~sdellavi/data/gymdata.shtml">作者数据与程序 <span aria-hidden="true">↗</span></a><a href="https://doi.org/10.1257/aer.96.3.694">论文 · AER <span aria-hidden="true">↗</span></a></div>
+<a class="case-notes" href="cases/gym.html" aria-label="进一步阅读：健身合同与实际到访">案例说明 <span aria-hidden="true">→</span></a></footer></article>
 <article class="case-card " id="wdi">
 <div class="card-meta"><span>国际比较 · 宏观面板</span><span class="case-code">WDI</span></div>
 <h3><a href="cases/wdi.html">全球经济与发展</a></h3>
-<p class="card-description">不同经济体的发展路径有何差异？从世界银行指标认识增长与发展。</p><p class="card-scale">217 个经济体 · 1990–2024 年</p>
-<a class="read-link" href="cases/wdi.html" aria-label="了解案例：全球经济与发展">了解案例与获取方式 <span aria-hidden="true">→</span></a></article>
+<p class="card-description">不同经济体的发展路径有何差异？从世界银行指标认识增长与发展。</p>
+<p class="card-citation">来源：World Bank, World Development Indicators。</p>
+<div class="card-data"><strong>217 个经济体 · 1990–2024 年</strong><p>30 项指标；经济体年度主表 7,595 行、43 列，汇总组单列。</p></div>
+<p class="card-task"><strong>学习任务：</strong>指标与单位核对、长宽表转换、缺失分析、跨国比较与趋势图。</p>
+<p class="card-caution">指标覆盖并不完整，宏观相关性不能直接解释为因果效应。</p>
+<footer class="card-resources"><p class="card-prepared">本地数据、字典与规则已备</p>
+<div class="direct-links" aria-label="WDI来源与材料"><a href="https://datacatalog.worldbank.org/search/dataset/0037712/world-development-indicators">世界银行 WDI <span aria-hidden="true">↗</span></a></div>
+<a class="case-notes" href="cases/wdi.html" aria-label="进一步阅读：全球经济与发展">案例说明 <span aria-hidden="true">→</span></a></footer></article>
 <article class="case-card extension" id="gmd">
 <div class="card-meta"><span>自主获取 · 扩展练习</span><span class="case-code">GMD</span></div>
 <h3><a href="cases/gmd.html">全球宏观数据获取</a></h3>
-<p class="card-description">如何把已有分析迁移到新的宏观数据？练习官方取数与版本记录。</p><p class="card-scale">按所选经济体、年份与指标获取</p>
-<a class="read-link" href="cases/gmd.html" aria-label="了解案例：全球宏观数据获取">了解案例与获取方式 <span aria-hidden="true">→</span></a></article></div></section>
+<p class="card-description">如何把已有分析迁移到新的宏观数据？练习官方取数与版本记录。</p>
+<p class="card-citation">来源：Müller et al. (2025), NBER Working Paper 33714。</p>
+<div class="card-data"><strong>按所选经济体、年份与指标获取</strong><p>区分协调序列与源级数据；实际规模随所选版本和参数变化。</p></div>
+<p class="card-task"><strong>学习任务：</strong>自主下载、版本锁定、单位核对、实际值与预测值识别。</p>
+<p class="card-caution">属于扩展获取资源，不计入七套本地数据包。</p>
+<footer class="card-resources"><p class="card-prepared">自主获取 · 流程已验证</p>
+<div class="direct-links" aria-label="GMD来源与材料"><a href="https://www.globalmacrodata.com/data.html">官方获取 <span aria-hidden="true">↗</span></a><a href="https://doi.org/10.3386/w33714">方法论文 <span aria-hidden="true">↗</span></a><a href="https://github.com/KMueller-Lab/Global-Macro-Database">首版复现仓库 <span aria-hidden="true">↗</span></a><a href="https://github.com/KMueller-Lab/Global-Macro-Database-Python">Python 工具 <span aria-hidden="true">↗</span></a><a href="https://github.com/KMueller-Lab/Global-Macro-Database-Stata">Stata 工具 <span aria-hidden="true">↗</span></a><a href="https://www.globalmacrodata.com/license.html">使用条款 <span aria-hidden="true">↗</span></a></div>
+<a class="case-notes" href="cases/gmd.html" aria-label="进一步阅读：全球宏观数据获取">案例说明 <span aria-hidden="true">→</span></a></footer></article></div></section>
 <section class="method-box"><h2>每套资料，都保留清楚的来路</h2><p class="method-flow"><span>来源有据</span><b aria-hidden="true">→</b><span>加工有规则</span><b aria-hidden="true">→</b><span>使用有说明</span><b aria-hidden="true">→</b><span>更新有版本</span></p><p>本页已公开案例说明与官方入口；章节练习和成套配套材料逐步完善。</p><a href="guide.html#availability">查看配套进度与使用方式 →</a></section></main>
 <footer class="site-footer wrap"><p>教材配套案例资源·建设版 <span>· 更新于 2026-10-30</span></p><p>AI 辅助整理，人工核验。第三方资料的权利归原权利人所有。</p><a href="guide.html#availability">获取方式与配套进度</a></footer>
 </body></html>
